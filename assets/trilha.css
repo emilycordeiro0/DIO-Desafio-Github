@@ -1,0 +1,33 @@
+.backgroundTrilha {
+  background-color: rgba(97, 8, 97, 0.852);
+  width: 100%;
+  height: 600px;
+}
+.bannerTrilha {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 50px 0 0;
+  gap: 16px;
+  font-size: 1rem;
+  font-weight: 900;
+}
+.elipseTrilha {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 248px;
+  height: 248px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 50%;
+}
+.h1Trilhha {
+  color: var(--text-color-blue);
+}
+.pTrilha {
+  text-align: center;
+  width: 400px;
+  text-align: justify;
+}
