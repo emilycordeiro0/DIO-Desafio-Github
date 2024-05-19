@@ -28,15 +28,3 @@ body {
   background-color: rgba(0, 0, 0, 0.2);
   border-radius: 50%;
 }
-
-h1 {
-  color: rgba(51, 168, 219, 1);
-  width: 477px;
-  height: 38px;
-  margin: 0 auto;
-}
-
-.paragraph {
-  width: 792px;
-  height: 38px;
-}
