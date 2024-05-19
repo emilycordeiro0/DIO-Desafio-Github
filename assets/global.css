@@ -1,0 +1,30 @@
+@font-face {
+  font-family: RaleWay;
+  src:  url(./fonts/Raleway/Raleway-Variable.ttf)
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: RaleWay;
+}
+.main {
+  --text-color-blue: #33a8db;
+  --text-color-white: #FFFFFF;
+}
+body {
+  font-size: 200px;
+}
+.banner-01 {
+  background: url(./images/Background-code-extension.png) top/cover, linear-gradient(to top , rgb(0, 0, 0, 0.8), #31A8DD);
+  background-repeat: no-repeat;
+ 
+  height: 600px;
+}
+.elipse {
+  margin: 0 auto;
+  width: 248px;
+  height: 248px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+}
