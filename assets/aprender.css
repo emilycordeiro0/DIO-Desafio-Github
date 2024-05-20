@@ -1,0 +1,72 @@
+.divAprender {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: rgba(0, 0, 0, 0.941) center/cover;
+  margin: 0;
+  padding: 100px;
+/*   width: 792px;
+  height: 325px;
+  top: 723px;
+  left: 324px; */
+  gap: 24px;
+  height: 100vh;
+}
+
+.h1Aprender {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(51, 168, 219, 1);
+  width: 477px;
+  height: 38px;
+  font-weight: 700px;
+  margin: 0 auto;
+}
+
+.pModulos {
+  display: flex;
+  flex-direction: column;
+  color: rgba(255, 255, 255, 1);
+  gap: 30px;
+}
+
+.subtitle {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 850px;
+  margin: 0 auto;
+  background-size: 16px;
+}
+
+span {
+  color: rgba(51, 168, 219, 1);
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  gap: 1px;
+  flex-direction: column;
+}
+
+li {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  border: 1px solid rgba(51, 168, 219, 1);
+  background: rgba(56, 56, 56, 0.4);
+  border-radius: 57px;
+  font-size: 14px;
+  width: 620px;
+  height: 51px;
+  padding: 16px 127px 16px 127px;
+  margin: 10px;
+  list-style-type: none;
+  gap: 5px;
+}
+
+ul :hover {
+  background: rgba(160, 157, 157, 0.416);
+}
