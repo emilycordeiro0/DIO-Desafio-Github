@@ -12,9 +12,6 @@
   --text-color-blue: #33a8db;
   --text-color-white: #FFFFFF;
 }
-body {
-  font-size: 200px;
-}
 .banner-01 {
   background: url(./images/Background-code-extension.png) top/cover, linear-gradient(to top , rgb(0, 0, 0, 0.8), #31A8DD);
   background-repeat: no-repeat;
