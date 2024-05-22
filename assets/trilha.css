@@ -1,11 +1,16 @@
+@import url(./global.css);
+
 .backgroundTrilha {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 16px;
-  background-color: #0c1c24;
+  background: 
+  linear-gradient(to top,rgba(0, 0, 0, 0.1), rgba(49, 168, 221, 0.1) , rgba(0, 0, 0, 0.1)),
+  url(./images/Background-code-extension.png) center/cover no-repeat;
+  border-bottom: 1px solid var(--text-color-blue);
   height: 600px;
+  gap: 40px;
 }
 .bannerTrilha {
   display: flex;
@@ -13,10 +18,8 @@
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  padding: 30px 0 10px;
-  width: 510px;
-  gap: 8px;
-  
+  padding-top: 30px;
+  width: 510px;  
 }
 .elipseTrilha {
   display: flex;
@@ -47,6 +50,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-bottom: 60px;
   padding: 20px 15px;
   background: var(--text-color-gradient-bottom);
   background-clip: text;

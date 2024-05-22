@@ -14,3 +14,6 @@
   --text-color-gradient-h1: linear-gradient(to bottom,#33A8DB ,#1472B7);
   --text-color-gradient-bottom: linear-gradient(to bottom,#3BA1CD, #1572B7);
 }
+body {
+  background-color: black;
+}
