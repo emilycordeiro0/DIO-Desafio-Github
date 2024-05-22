@@ -1,24 +1,20 @@
 @import url(./global.css);
 
-.backgroundTrilha {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+.spaceTrilha {
   background: 
   linear-gradient(to top,rgba(0, 0, 0, 0.1), rgba(49, 168, 221, 0.1) , rgba(0, 0, 0, 0.1)),
-  url(./images/Background-code-extension.png) center/cover no-repeat;
+  url(./images/Background-trilha.png) center/cover no-repeat;
   border-bottom: 1px solid var(--text-color-blue);
   height: 600px;
-  gap: 40px;
+  
 }
-.bannerTrilha {
+.mainTrilha {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
-  padding-top: 30px;
+  margin: 0 auto ;
+  padding: 30px ;
   width: 510px;  
 }
 .elipseTrilha {
@@ -27,7 +23,7 @@
   align-items: center;
   width: 248px;
   height: 248px;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.6);
   border-radius: 50%;
 }
 .h1Trilha {
@@ -44,6 +40,7 @@
   line-height: 24px;
   text-align: center;
   color: var(--text-color-white);
+  margin-bottom: 40px;
 }
 .buttonTrilha {
   display: flex;

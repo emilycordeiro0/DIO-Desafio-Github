@@ -1,0 +1,19 @@
+@import url(./global.css);
+
+.spaceEvolua {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.h1Evolua {
+  display: flex;
+  justify-content: flex;
+  align-items: center;
+  text-align: center;
+  width: 800px;
+  line-height: 30px;
+  height: 80px;
+  size: 16px;
+  color: var(--text-color-white);
+}
