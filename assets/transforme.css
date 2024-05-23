@@ -1,0 +1,19 @@
+.transformWorld {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.466) , rgba(0, 0, 0, 0.466)) , url(./images/background-transform.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 360px;
+}
+
+.transformWorld p {
+    text-shadow: 3px 2px 0px #33A8DB;
+    color: white;
+    width: 244px;
+    height: 141px;
+    margin-left: 198px;
+    padding-top: 111px;
+    line-height: 46.96px;
+    font-weight: bold;
+    font-size: 40px;
+}
